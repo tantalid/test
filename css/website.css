@@ -1,0 +1,45 @@
+/* Tiny Carousel */
+.gallery {
+	overflow:hidden;
+	padding: 0 0 10px;
+}
+.gallery .viewport {
+	float: left;
+	width: 240px;
+	height: 125px;
+	overflow: hidden;
+	position: relative;
+}
+.gallery .buttons {
+	background:url("../images/buttons.png") no-repeat;
+	display: block;
+	margin: 30px 10px 0 0;
+	background-position: 0 -38px;
+	text-indent: -999em;
+	float: left;
+	width: 39px;
+	height: 37px;
+	overflow: hidden;
+	position: relative;
+}
+.gallery .next {
+	background-position: 0 0;
+	margin: 30px 0 0 10px;
+}
+.gallery .disable {visibility: hidden; }
+.gallery .overview {
+	list-style: none;
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	width: 240px;
+	left: 0;
+	top: 0;
+}
+.gallery .overview li{
+	float: left;
+	margin: 0 20px 0 0;
+	padding: 1px;
+	height: 121px;
+	border: 1px solid #dcdcdc;
+}
