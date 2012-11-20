@@ -2,6 +2,7 @@
 .gallery {
 	overflow:hidden;
 	padding: 0 0 10px;
+	margin: 0;
 }
 .gallery .viewport {
 	float: left;
