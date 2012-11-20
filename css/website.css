@@ -1,4 +1,8 @@
-/* Tiny Carousel */
+
+
+
+
+
 .gallery {
 	overflow:hidden;
 	padding: 0 0 10px;
@@ -44,3 +48,4 @@
 	height: 121px;
 	border: 1px solid #dcdcdc;
 }
+.sometext {}
